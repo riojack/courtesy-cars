@@ -1,16 +1,16 @@
 plugins {
-    id 'scala'
+  id 'scala'
 }
 
 dependencies {
-    compile 'org.scala-lang:scala-library:2.11.12'
+  compile 'org.scala-lang:scala-library:2.11.12'
 
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.scalatest:scalatest_2.11:3.0.5'
+  testCompile 'junit:junit:4.12'
+  testCompile 'org.scalatest:scalatest_2.11:3.0.5'
 
-    testRuntime 'org.scala-lang.modules:scala-xml_2.11:1.1.0'
+  testRuntime 'org.scala-lang.modules:scala-xml_2.11:1.1.0'
 }
 
 repositories {
-    jcenter()
+  jcenter()
 }
